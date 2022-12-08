@@ -1,0 +1,716 @@
+html{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "lucida granade";
+    background-color:rgb(6, 137, 115);
+}
+
+
+li{
+    list-style: none;
+    color: yellow;
+}
+
+.Header {
+    height: 100px;
+    background-color: rgb(10, 153, 129);
+    
+}
+
+.Header-logo{
+    padding: 33px 20px;
+    float: left;
+    font-size: 20px;
+    padding: 50px 38px;
+    background-image: url(19.png) ;
+    background-size: cover;
+}
+
+.oke a {
+    color: yellow;
+    transition: 0.3s;
+}
+
+.Header-list a {
+    color: yellow;
+    font-size: 20px;
+    float: right;
+    padding: 10px 10px;
+    padding-top: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Header-list a:hover {
+    color: rgb(24, 69, 30);
+    font-weight: bold;
+    opacity: 1;
+    transition: 0.3s;
+    border-bottom: 3pt solid rgb(189, 252, 241);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Bg {
+background-color: aquamarine;
+height: 300px;
+
+} 
+
+a{
+    text-decoration: none;
+
+}
+
+p{
+    font-weight: bold;
+}
+
+.palasekul h1{
+    text-align: center;
+    color:rgb(252, 252, 97);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    background-color:rgb(0, 134, 111);
+}
+
+.palasekul h2{
+    color: rgb(252, 252, 97);
+    font-size: large;
+    margin-left: 400px;
+    margin-right: 400px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: cornflowerblue;
+    transition: 0.3s;
+}
+
+.palasekul h2:hover{
+    margin-left: 350px;
+    margin-right: 350px;
+    transition: 0.3s;
+}
+
+.palap{
+    margin: 0 520px;
+    border: 6px double #483C32;
+    box-shadow: 0 0 0 50px rgba(244, 240, 236, 0.4) inset, 0 0 0 10px rgb(180, 130, 90), 0 0 30px rgba(0, 0, 0, 0.8) inset;
+    outline: 2px solid #333;
+    outline-offset: 0px;
+}
+
+.manaj h1{
+    text-align: center;
+    color:rgb(252, 252, 97);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    background-color:rgb(0, 134, 111);
+}
+
+.simanaj{
+    position: relative;
+    float: left;
+    margin-left: 13vh;
+}
+
+.desc{
+    color: rgb(23, 69, 8);
+    width: 175px;
+}
+
+.fotoh{
+    border-radius: 5px;
+    margin: 10px 30px;
+    width: fit-content;
+    text-align: center;
+    background-color: rgb(11, 181, 152);
+    transition: 0.3s;
+}
+
+.fotoh .desc{
+    width: 175px;
+}
+
+.fotoh:hover{
+    transition: 0.3s;
+    background-color: rgb(164, 181, 11);
+    border-radius: 10px;
+}
+
+.fotohh{
+    margin: 10px 0px 50px 0px;
+    width: fit-content;
+    text-align: center;
+    background-color: rgb(11, 181, 152);
+    transition: 0.3s;
+}
+
+.fotohh:hover{
+    transition: 0.3s;
+    background-color: rgb(106, 122, 186);
+    border-radius: 10px;
+}
+
+.fotohhh{
+    margin: 10px 30px;
+    width: fit-content;
+    text-align: center;
+    background-color: rgb(11, 181, 152);
+    transition: 0.3s;
+}
+
+.fotohhh .desc{
+    width: 175px
+}
+
+.fotohhh:hover{
+    transition: 0.3s;
+    background-color: rgb(178, 73, 181);
+    border-radius: 10px;
+}
+
+.fotohhhh{
+    margin: 10px 20px;
+    width: fit-content;
+    text-align: center;
+    background-color: rgb(11, 181, 152);
+    transition: 0.3s;
+}
+
+.fotohhhh .desc{
+    width: 175px;
+}
+
+.fotohhhh:hover{
+    transition: 0.3s;
+    background-color: rgb(125, 177, 69);
+    border-radius: 10px;
+}
+
+.progah h1{
+    text-align: center;
+    color:rgb(252, 252, 97);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    background-color:rgb(0, 134, 111);
+    float: left;
+    padding-right: 520px;
+    padding-left: 520px;
+}
+
+.prig{
+    position: relative;
+    float: left;
+    margin-left: 13vh;
+}
+
+.progtoh{
+    border-radius: 5px;
+    margin: 10px 30px;
+    width: fit-content;
+    text-align: center;
+    background-color: rgb(11, 181, 152);
+    transition: 0.3s;
+}
+
+.progtoh:hover{
+    transition: 0.3s;
+    background-color: rgb(94, 255, 0);
+    border-radius: 10px;
+}
+
+.progtohh{
+    margin: 10px 0px 50px 0px;
+    width: fit-content;
+    text-align: center;
+    background-color: rgb(11, 181, 152);
+    transition: 0.3s;
+}
+
+.progtohh:hover{
+    transition: 0.3s;
+    background-color: rgb(186, 200, 255);
+    border-radius: 10px;
+}
+
+.progtohhh{
+    margin: 10px 30px;
+    width: fit-content;
+    text-align: center;
+    background-color: rgb(11, 181, 152);
+    transition: 0.3s;
+}
+
+.progtohhh:hover{
+    transition: 0.3s;
+    background-color: rgb(205, 23, 59);
+    border-radius: 10px;
+}
+
+.progtohhhh{
+    margin: 10px 20px;
+    width: fit-content;
+    text-align: center;
+    background-color: rgb(11, 181, 152);
+    transition: 0.3s;
+}
+
+.progtohhhh:hover{
+    transition: 0.3s;
+    background-color: rgb(0, 217, 255);
+    border-radius: 10px;
+}
+
+.gurtu h1{
+    text-align: center;
+    color:rgb(252, 252, 97);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    background-color:rgb(0, 134, 111);
+    float: left;
+    padding-right: 520px;
+    padding-left: 520px;
+}
+
+.gurtusi{
+    position: relative;
+    float: left;
+    margin-left: 13vh
+}
+
+.sigurtuh{
+    border-radius: 5px;
+    margin: 10px 30px;
+    width: fit-content;
+    text-align: center;
+    background-color: rgb(11, 181, 152);
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.sigurtuh:hover{
+    transition: 0.3s;
+    background-color: rgb(170, 255, 0);
+    border-radius: 10px;
+}
+
+.sigurtuh2{
+    margin: 10px 0px 50px 0px;
+    width: fit-content;
+    text-align: center;
+    background-color: rgb(11, 181, 152);
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.sigurtuh2:hover{
+    transition: 0.3s;
+    background-color: rgb(255, 196, 0);
+    border-radius: 10px;
+}
+
+.sigurtuh3{
+    margin: 10px 30px;
+    width: fit-content;
+    text-align: center;
+    background-color: rgb(11, 181, 152);
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.sigurtuh3:hover{
+    transition: 0.3s;
+    background-color: rgb(191, 110, 241);
+    border-radius: 10px;
+}
+
+.sigurtuh4{
+    margin: 10px 20px;
+    width: fit-content;
+    text-align: center;
+    background-color: rgb(11, 181, 152);
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.sigurtuh4:hover{
+    transition: 0.3s;
+    background-color: rgb(128, 172, 240);
+    border-radius: 10px;
+}
+
+.gurtusi2{
+    position: relative;
+    float: left;
+    margin-left: 13vh
+}
+
+.blok{
+    background-color:rgb(6, 137, 115);
+    float: left;
+    padding-right: 520px;
+    padding-left: 520px;
+}
+
+.bwrsih{
+    border-radius: 5px;
+    margin: 10px 30px;
+    width: fit-content;
+    text-align: center;
+    background-color: rgb(11, 181, 152);
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.bwrsih:hover{
+    transition: 0.3s;
+    background-color: rgb(240, 128, 197);
+    border-radius: 10px;
+}
+
+.bwrsih2{
+    margin: 10px 0px 50px 0px;
+    width: fit-content;
+    text-align: center;
+    background-color: rgb(11, 181, 152);
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.bwrsih2:hover{
+    transition: 0.3s;
+    background-color: rgb(240, 180, 128);
+    border-radius: 10px;
+}
+
+.bwrsih3{
+    margin: 10px 30px;
+    width: fit-content;
+    text-align: center;
+    background-color: rgb(11, 181, 152);
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.bwrsih3:hover{
+    transition: 0.3s;
+    background-color: rgb(128, 240, 171);
+    border-radius: 10px;
+}
+
+.bwrsih4{
+    margin: 10px 20px;
+    width: fit-content;
+    text-align: center;
+    background-color: rgb(11, 181, 152);
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.bwrsih4:hover{
+    transition: 0.3s;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.blok2{
+    background-color:rgb(6, 137, 115);
+    float: left;
+    padding-right: 520px;
+    padding-left: 520px;
+}
+
+.gurtusi3{
+    position: relative;
+    float: left;
+    margin-left: 13vh;
+}
+
+.krish{
+    border-radius: 5px;
+    margin: 10px 30px;
+    width: fit-content;
+    text-align: center;
+    background-color: rgb(11, 181, 152);
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.krish:hover{
+    transition: 0.3s;
+    background-color: rgb(128, 201, 240);
+    border-radius: 10px;
+}
+
+.krish2{
+    margin: 10px 0px 50px 0px;
+    width: fit-content;
+    text-align: center;
+    background-color: rgb(11, 181, 152);
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.krish2:hover{
+    transition: 0.3s;
+    background-color: rgb(240, 128, 128);
+    border-radius: 10px;
+}
+
+.krish3{
+    margin: 10px 30px;
+    width: fit-content;
+    text-align: center;
+    background-color: rgb(11, 181, 152);
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.krish3:hover{
+    transition: 0.3s;
+    background-color: rgb(128, 128, 128);
+    border-radius: 10px;
+}
+
+.krish4{
+    margin: 10px 20px;
+    width: fit-content;
+    text-align: center;
+    background-color: rgb(11, 181, 152);
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.krish4:hover{
+    transition: 0.3s;
+    background-color: rgb(68, 166, 215);
+    border-radius: 10px;
+}
+
+.blok3{
+    background-color:rgb(6, 137, 115);
+    float: left;
+    padding-right: 520px;
+    padding-left: 520px;
+}
+
+.gurtusi4{
+    position: relative;
+    float: left;
+    margin-left: 13vh;
+}
+
+.brik{
+    border-radius: 5px;
+    margin: 10px 30px;
+    width: fit-content;
+    text-align: center;
+    background-color: rgb(11, 181, 152);
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.brik:hover{
+    transition: 0.3s;
+    background-color: rgb(128, 176, 240);
+    border-radius: 10px;
+}
+
+.brik2{
+    margin: 10px 0px 50px 0px;
+    width: fit-content;
+    text-align: center;
+    background-color: rgb(11, 181, 152);
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.brik2:hover{
+    transition: 0.3s;
+    background-color: rgb(198, 226, 95);
+    border-radius: 10px;
+}
+
+.brik3{
+    margin: 10px 30px;
+    width: fit-content;
+    text-align: center;
+    background-color: rgb(11, 181, 152);
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.brik3:hover{
+    transition: 0.3s;
+    background-color: rgb(0, 255, 51);
+    border-radius: 10px;
+}
+
+.brik4{
+    margin: 10px 20px;
+    width: fit-content;
+    text-align: center;
+    background-color: rgb(11, 181, 152);
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.brik4:hover{
+    transition: 0.3s;
+    background-color: rgb(159, 73, 124);
+    border-radius: 10px;
+}
+
+.ut h1{
+    text-align: center;
+    color:rgb(252, 252, 97);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    background-color:rgb(0, 134, 111);
+    float: left;
+    padding-right: 520px;
+    padding-left: 580px;
+}
+
+.trut{
+    position: relative;
+    float: left;
+    margin-left: 13vh;
+}
+
+.wut{
+    margin: 10px 30px;
+    width: fit-content;
+    text-align: center;
+    background-color: rgb(11, 181, 152);
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.wut:hover{
+    transition: 0.3s;
+    background-color: rgb(165, 36, 114);
+    border-radius: 10px;
+}
+
+.wut2{
+    margin: 10px 0px 50px 0px;
+    width: fit-content;
+    text-align: center;
+    background-color: rgb(11, 181, 152);
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.wut2:hover{
+    transition: 0.3s;
+    background-color: rgb(73, 159, 125);
+    border-radius: 10px;
+}
+
+.wut3{
+    margin: 10px 30px;
+    width: fit-content;
+    text-align: center;
+    background-color: rgb(11, 181, 152);
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.wut3:hover{
+    transition: 0.3s;
+    background-color: rgb(159, 105, 73);
+    border-radius: 10px;
+}
+
+.wut4{
+    margin: 10px 20px;
+    width: fit-content;
+    text-align: center;
+    background-color: rgb(11, 181, 152);
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.wut4:hover{
+    transition: 0.3s;
+    background-color: rgb(125, 159, 73);
+    border-radius: 10px;
+}
+
+.tu{
+    background-color:rgb(6, 137, 115);
+    float: left;
+    padding-right: 520px;
+    padding-left: 520px;
+}
+
+.trut2{
+    position: relative;
+    float: left;
+    margin-left: 13vh;
+}
+
+.tuw{
+    border-radius: 5px;
+    margin: 10px 30px;
+    width: fit-content;
+    text-align: center;
+    background-color: rgb(11, 181, 152);
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.tuw:hover{
+    transition: 0.3s;
+    background-color: rgb(234, 157, 203);
+    border-radius: 10px;
+}
+
+.tuw2{
+    margin: 10px 0px 50px 0px;
+    width: fit-content;
+    text-align: center;
+    background-color: rgb(11, 181, 152);
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.tuw2:hover{
+    transition: 0.3s;
+    background-color: rgb(171, 0, 0);
+    border-radius: 10px;
+}
+
+.tuw3{
+    margin: 10px 30px;
+    width: fit-content;
+    text-align: center;
+    background-color: rgb(11, 181, 152);
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.tuw3:hover{
+    transition: 0.3s;
+    background-color: rgb(139, 190, 197);
+    border-radius: 10px;
+}
+
+.tuw4{
+    margin: 10px 20px;
+    width: fit-content;
+    text-align: center;
+    background-color: rgb(11, 181, 152);
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.tuw4:hover{
+    transition: 0.3s;
+    background-color: rgb(244, 102, 187);
+    border-radius: 10px;
+}
