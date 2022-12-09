@@ -1,0 +1,154 @@
+html{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "lucida granade";
+    background-color:rgb(6, 137, 115);
+}
+
+
+li{
+    list-style: none;
+    color: yellow;
+}
+
+.Header {
+    height: 100px;
+    background-color: rgb(10, 153, 129);
+    
+}
+
+.Header-logo{
+    padding: 33px 20px;
+    float: left;
+    font-size: 20px;
+    padding: 50px 38px;
+    background-image: url(19.png) ;
+    background-size: cover;
+}
+
+.oke a {
+    color: yellow;
+    transition: 0.3s;
+}
+
+.Header-list a {
+    color: yellow;
+    font-size: 20px;
+    float: right;
+    padding: 10px 10px;
+    padding-top: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Header-list a:hover {
+    color: rgb(24, 69, 30);
+    font-weight: bold;
+    opacity: 1;
+    transition: 0.3s;
+    border-bottom: 3pt solid rgb(189, 252, 241);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Bg {
+background-color: aquamarine;
+height: 300px;
+
+} 
+
+a{
+    text-decoration: none;
+
+}
+
+.jur{
+    margin: 20px 20px;
+    position: relative;
+}
+
+.jur:hover{
+    border-bottom: solid yellow;
+}
+
+.parap{
+    color:rgb(189, 252, 241);
+    font-size: large;
+    transition: 0.5s;
+    margin: 5px 5px;
+}
+
+.parap:hover{
+    background-color: rgb(5, 92, 77);
+    transition: 0.5s;
+    border-radius: 5px;
+}
+
+.jur2{
+    margin: 20px 20px;
+    position: relative;
+}
+
+.jur2:hover{
+    border-bottom: solid rgb(21, 52, 137);
+}
+
+.parap2{
+    color:rgb(189, 252, 241);
+    font-size: large;
+    transition: 0.5s;
+    margin: 5px 5px;
+}
+
+.parap2:hover{
+    background-color: rgb(5, 92, 77);
+    transition: 0.5s;
+    border-radius: 5px;
+}
+
+.jur3{
+    margin: 20px 20px;
+    position: relative;
+}
+
+.jur3:hover{
+    border-bottom: solid rgb(137, 38, 21);
+}
+
+.parap3{
+    color:rgb(189, 252, 241);
+    font-size: large;
+    transition: 0.5s;
+    margin: 5px 5px;
+}
+
+.parap3:hover{
+    background-color: rgb(5, 92, 77);
+    transition: 0.5s;
+    border-radius: 5px;
+}
+
+.jur4{
+    margin: 20px 20px;
+    position: relative;
+}
+
+.jur4:hover{
+    border-bottom: solid rgb(137, 21, 123);
+}
+
+.parap4{
+    color:rgb(189, 252, 241);
+    font-size: large;
+    transition: 0.5s;
+    margin: 5px 5px;
+}
+
+.parap4:hover{
+    background-color: rgb(5, 92, 77);
+    transition: 0.5s;
+    border-radius: 5px;o 
+}
